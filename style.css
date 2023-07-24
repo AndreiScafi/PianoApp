@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+}
+
+.corpoteclado{
+    background-color: rgb(3, 10, 71);
+    max-width: 800px;
+    margin: 100px auto;
+    border-radius: 20px;
+}
+
+.teclado{
+    display: flex;
+    padding: 75px 50px 0 50px
+}
+
+.oitava{
+    position: relative;
+    display:flex;
+ 
+}
+
+.branca{
+    background-color: white;
+    width: 50px;
+    height: 260px;
+    border: 1px solid black;
+    border-radius: 0 0 5px 5px;
+}
+
+.preta{
+    position: absolute;
+    background-color: black;
+    width: 30px;
+    height: 160px;
+    border-radius: 0 0 5px 5px;
+}
+
+[Db]{
+    left:35px;
+}
+
+[Eb]{
+    left:85px;
+}
+
+[Gb]{
+    left:185px;
+}
+
+[Ab]{
+    left:235px;
+}
+
+[Bb]{
+    left:285px;
+}
+
+.selecionada {
+    background-color: lightgreen;
+}
